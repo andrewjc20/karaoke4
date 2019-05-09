@@ -1,0 +1,189 @@
+
+
+h1{
+  font-family: ace lift;
+  color: white;
+  text-align: center;
+  font-size: 100px;
+}
+
+
+h2 {
+  font-family: ace lift;
+  color: white;
+  text-align: center;
+}
+.rectangle {
+  height: 5px;
+  width: auto;
+  background-color: white;
+}
+
+.search{
+  font-family: ace lift;
+  color: white;
+  text-align: right;
+}
+
+.choose h1{
+  text-align: left;
+  font-size: 55px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.container-row {
+  display: flex;
+}
+.songs{
+  font-family: ace lift;
+  color: white;
+  text-align: center;
+}
+
+.songs h3{
+  font-size: 25px;
+}
+
+.regular:hover {
+  text-decoration: underline;
+  background-color: red;
+  font-size: 25px;
+  }
+
+.reallybadboy:hover{
+  text-decoration: underline;
+  background-color: red;
+  }
+
+.simonsays:hover{
+  text-decoration: underline;
+  background-color: red;
+  }
+
+.killthislove:hover{
+  text-decoration: underline;
+  background-color: red;
+  }
+
+
+.nct {
+    font-family: ace lift;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 80px;
+  }
+
+.letsstart {
+    font-family: ace lift;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px
+    border-style: solid;
+  }
+
+.letsstart:hover {
+    background-color: green;
+  }
+
+  .nct h1 {
+    font-family: ace lift;
+    color: white;
+    text-align: center;
+    font-size: 100px
+  }
+
+.lyrics{
+    font-family: ace lift;
+    font-size: 20px;
+    color: white;
+    width: 35%;
+    margin-right: auto;
+    float: right;
+  }
+
+.scrolling{
+    float:right;
+  }
+
+.nctregular{
+  float: left;
+}
+.nctregular h1{
+    font-family: ace lift;
+    position: fixed;
+  }
+
+.nctregular p{
+  font-family: ace lift;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  position: fixed;
+
+}
+
+.regularmv {
+  position: fixed;
+  margin: 200px;
+}
+
+.change {
+  font-family: ace lift;
+  color: white;
+  font-size:15px;
+  text-align: right;
+}
+
+a {
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  position: fixed;
+  margin-top: 200px;
+}
+#out {
+  /* Set order to 2 to move the div to the right side of the flexbox  */
+  order: 2;
+  flex: 1;
+  padding: 1rem;
+  /* Make this div a column flexbox to align lyrics to middle */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* This transition property controls the fading speed */
+#out p {
+  transition: opacity 800ms;
+  font-size: 2rem;
+  /* Just for debugging */
+  color: white;
+  font-family: ace lift;
+}
+.show {
+  opacity: 1;
+}
+.hide {
+  opacity: 0;
+}
+
+#out p {
+  transition: opacity 800ms;
+  font-size: 2rem;
+  /* Just for debugging */
+  color: white;
+  font-family: ace lift;
+}
+
+.killthislovemv{
+  color: pink;
+}
